@@ -4,17 +4,20 @@
   <title>轉移到商店中</title>
 </head>
 <body>
-  <h1>文件中的主標題</h1>
-  <p>老媽我在這，我正在寫 <abbr title="Hyper Text Markup Language">HTML</abbr>！</p>
+  <h1>轉移到商店</h1>
+  <p>這個網頁將會偵測你的瀏覽器，轉移到適合你的商店！</p>
 </body>
 <script>
     if((navigator.userAgent.match(/iPhone/i)) || 
-        (navigator.userAgent.match(/iPod/i))) {
+        (navigator.userAgent.match(/iPod/i)) ||
+        (navigator.userAgent.match(/iPad/i))) {
           console.log('This Page open by ios');
+          window.open('https://itunes.apple.com/app/id556802608');
     } else if (navigator.userAgent.match(/android/i)){
           console.log('This Page open by android');
+          window.open('market://details?id=tw.net.sun.hongu.general');
     } else {
-          console.log('This Page open by android');
+          console.log('This Page open by other');
     }
 </script>
 </html>
