@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+  <title>轉移到商店中</title>
+</head>
+<body>
+  <h1>轉移到商店</h1>
+  <p>這個網頁將會偵測你的瀏覽器，轉移到適合你的商店！</p>
+</body>
+<script>
+    if((navigator.userAgent.match(/iPhone/i)) || 
+        (navigator.userAgent.match(/iPod/i)) ||
+        (navigator.userAgent.match(/iPad/i))) {
+          console.log('This Page open by ios');
+          window.location = 'itms-apps://itunes.apple.com/tw/app/pages/id1055263956';
+    } else if (navigator.userAgent.match(/android/i)) {
+          console.log('This Page open by android');
+          window.location = 'market://details?id=tw.net.sun.mcut';
+    } else {
+          console.log('This Page open by other');
+    }
+</script>
+</html>
