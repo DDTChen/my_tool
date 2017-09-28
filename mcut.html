@@ -6,15 +6,14 @@
 <body>
   <h1>轉移到商店</h1>
   <p>這個網頁將會偵測你的瀏覽器，轉移到適合你的商店！</p>
+  <a href="hgwmmcut://index.main?sessionId=aaaJxST_hPR0ycc9VTCiv&account=systest1">這個網頁將會偵測你的瀏覽器，轉移到適合你的商店！</a>
 </body>
 <script>
     if((navigator.userAgent.match(/iPhone/i)) || 
         (navigator.userAgent.match(/iPod/i)) ||
         (navigator.userAgent.match(/iPad/i))) {
           console.log('This Page open by ios');
-//           window.location = 'itms-apps://itunes.apple.com/tw/app/pages/id1055263956';
-          window.location = 'hgwmmcut://index.main?sessionId=aaaJxST_hPR0ycc9VTCiv&account=systest1';
-
+          window.location = 'itms-apps://itunes.apple.com/tw/app/pages/id1055263956';
     } else if (navigator.userAgent.match(/android/i)) {
           console.log('This Page open by android');
           window.location = 'market://details?id=tw.net.sun.mcut';
