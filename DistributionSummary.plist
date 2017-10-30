@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>General.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>AC2F631DE1F696DBD1D94E13C463A7CE967C162D</string>
+				<key>dateExpires</key>
+				<string>2020/2/15</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>VMQUM69832.tw.net.sun.edu.test</string>
+				<key>aps-environment</key>
+				<string>production</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>VMQUM69832</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>General.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>a7252b47-0bc3-4699-a9b8-7dffc0835404</string>
+				<key>name</key>
+				<string>iOS Team Inhouse Provisioning Profile: tw.net.sun.edu.test</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>VMQUM69832</string>
+				<key>name</key>
+				<string>SUN NET TECHNOLOGY CO., LTD.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
